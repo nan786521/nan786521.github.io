@@ -110,7 +110,7 @@ function difficultyChoose() {
       class: 'memory-game-easy',
       cardNum: 16,
       message: {
-        '記憶力翻牌小遊戲': '切換為簡單模式。',
+        '記憶力翻牌小遊戲': '遊戲準備開始，翻到相同景點的牌可以消除',
         'Memory Card Game': 'Switch to Easy Mode.',
         'メモリカードゲーム': '簡単モードに切り替え。'
       }
@@ -152,7 +152,7 @@ function difficultyChoose() {
     } else {
       const title = document.title;
       if (title === '記憶力翻牌小遊戲') {
-        alert("已經是" + mode.id + "模式了。");
+        alert("遊戲已經開始了。");
       } else if (title === 'Memory Card Game') {
         alert("It was " + mode.id + " Mode.");
       } else if (title === 'メモリカードゲーム') {
