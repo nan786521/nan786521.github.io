@@ -16,7 +16,7 @@ function Chinese_Locale() {
 		$('#LocaleReq' + String(i)).jqmultilang('zh-tw');
 	}
 	if (mathedCard === cardNum) {
-		end.innerHTML = "已過關";
+		end.innerHTML = "恭喜過關";
 	}
 }
 function Japanese_Locale() {
